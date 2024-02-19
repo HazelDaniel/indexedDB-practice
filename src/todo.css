@@ -1,0 +1,50 @@
+.todo-container {
+  width: 60rem;
+  height: max-content;
+  min-height: 20rem;
+  background: linear-gradient(26deg, rgba(2, 20, 0, 0.1) 20%, transparent);
+  padding: 3rem;
+  mix-blend-mode: multiply;
+  border-radius: 2rem;
+  border: 0.5rem solid transparent;
+  box-shadow: 0.1rem 0.2rem 2.5rem #333333;
+}
+.todo-container > h1 > span {
+  background-color: #333a33;
+  color: white;
+}
+.todo-input-div {
+  height: 3rem;
+  border-bottom: 0.2rem solid #333333;
+  padding-bottom: 0.5rem;
+}
+.todo-input-div input {
+  height: 100%;
+  width: 30rem;
+}
+.todo-input-div > button {
+  height: 100%;
+  width: 10rem;
+}
+.todo-container ul {
+  width: 100%;
+  height: max-content;
+  min-height: 20rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-container ul li {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.todo-container ul li > span {
+  text-align: center;
+  width: max-content;
+  min-width: 50%;
+  cursor: pointer;
+  transition: all .2s ease-out;
+}
